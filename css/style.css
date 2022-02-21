@@ -245,3 +245,15 @@ hr {
     #photos > img {
         width: 100%;
     }
+
+    /*media queries*/
+
+    /*For larger to medium screen size from 1200px wide and down*/
+
+    @media screen and (max-width: 1200px) {
+        #club-ethos {
+            width: 65%;
+            height: 1200px;
+            margin: 0 auto;
+        }
+    }
